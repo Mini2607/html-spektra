@@ -1,0 +1,322 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('/images/fashion.webp') no-repeat center center/cover;
+    background-attachment: scroll; /* Allows background to move while scrolling */
+    background-size: 100% 100%; /* Ensures the image fits the full screen */
+    background-repeat: no-repeat;
+    color: #fff; /* White text for contrast */
+    min-height: 100vh; /* Ensures full viewport height */
+    filter: brightness(1.1) contrast(1.1); /* Enhances clarity */
+}
+
+/* Navbar Brand Styling - Ultra Large, Bold & Dominant */
+.navbar-brand {
+    font-family: 'Playfair Display', serif; /* Elegant fashion font */
+    font-size: 6rem; /* Massive font size */
+    font-weight: 900; /* Ultra Bold */
+    color: #f1c40f !important; /* Gold color */
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 25px rgba(241, 196, 15, 1); /* Strong shadow for glow effect */
+    transition: 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.navbar-brand:hover {
+    color: #d4af37 !important; /* Darker gold on hover */
+    text-shadow: 15px 15px 35px rgba(212, 175, 55, 1); /* Intense glow effect */
+    transform: scale(1.2); /* More enlargement */
+}
+
+/* Optional: Apply a slight blur to content for better focus on text */
+.container {
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Sidebar Section - Modern Styling */
+.sidebar {
+    background: linear-gradient(135deg, #1c1c1c, #292929); /* Dark gradient background */
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Sidebar Title Styling */
+.sidebar h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #D4AF37; /* Gold accent */
+    border-bottom: 2px solid #D4AF37;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+/* Sidebar Links */
+.sidebar ul {
+    padding: 0;
+}
+
+.sidebar ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.sidebar ul li a:hover {
+    background: #D4AF37; /* Gold hover effect */
+    color: black;
+}
+
+/* Search Bar Styling - Modern Look */
+.input-group {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #D4AF37; /* Gold border */
+}
+
+.input-group .form-control {
+    border: none;
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+.input-group .form-control::placeholder {
+    color: #ccc;
+}
+
+.input-group .btn {
+    background-color: #f1c40f; /* Gold button */
+    color: black;
+    border: none;
+    transition: 0.3s;
+}
+
+.input-group .btn:hover {
+    background-color: #D4AF37; /* Slightly darker gold */
+    color: white;
+}
+
+
+/* Blog Post Cards */
+.card {
+    background-color: #D4AF37; /* Gold Background */
+    color: black; /* Readable text */
+    border: 2px solid #B8860B;
+    box-shadow: 3px 3px 15px rgba(212, 175, 55, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+/* Blog Post Cards */
+.card {
+    background-color: #D4AF37; /* Muted Gold */
+    color: black; /* Text remains readable */
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+/* Different font styles and colors for each post */
+.card {
+    background-color: #D4AF37; /* Gold Background */
+    color: black; /* Readable text */
+    border: 2px solid #B8860B; /* Slightly darker gold border */
+    box-shadow: 3px 3px 15px rgba(212, 175, 55, 0.5); /* Gold Glow */
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #3E2723; /* Deep Brown for contrast */
+}
+
+.card-text {
+    color: black; /* Ensuring readability */
+}
+
+.btn-primary {
+    background-color: #B8860B; /* Deep Gold */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #8B6508; /* Darker gold on hover */
+}
+
+
+/* Trending Fashion Section */
+/* Styling for Highly Visible Trending Fashion Heading */
+/* Styling for Highly Visible Trending Fashion Heading with Black Box */
+#Trends h2 {
+    font-size: 2.2rem; /* Increased font size */
+    font-weight: 900; /* Extra bold for emphasis */
+    color: #eafd3a; /* White text for contrast */
+    text-shadow: 4px 4px 12px rgba(255, 255, 255, 0.8); /* Strong glow effect */
+    text-align: center; /* Keep it centered */
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background: black; /* Black text box */
+    border-radius: 8px; /* Rounded corners */
+    display: inline-block;
+    box-shadow: 0px 0px 20px rgba(255, 215, 0, 0.6); /* Outer glowing effect */
+}
+
+
+
+/* Trending Fashion Cards */
+.trend-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.trend-card:hover {
+    transform: scale(1.05);
+}
+
+.trend-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.trend-card .card-body {
+    text-align: center;
+}
+
+.trend-card .card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #0a0a0a;
+}
+
+.trend-card .card-text {
+    font-size: 1rem;
+    color: #0e0d0d;
+}
+
+/* Styling Fashion Tips Section */
+#Style\ Tips {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Styling the Heading */
+#Style\ Tips h2 {
+    font-size: 2rem; /* Same size as Trending Fashion */
+    font-weight: 800;
+    color: #e0e419; /* White text */
+    background: black; /* Black text box */
+    padding: 10px 20px;
+    border-radius: 8px; /* Rounded edges */
+    display: inline-block;
+    text-shadow: 3px 3px 8px rgba(255, 255, 255, 0.7); /* Glow effect */
+    box-shadow: 0px 0px 20px rgba(255, 215, 0, 0.6); /* Outer glow effect */
+}
+
+
+/* Styling Fashion Tips Cards */
+.tip-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.tip-card:hover {
+    transform: scale(1.05);
+}
+
+.tip-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.tip-card .card-body {
+    text-align: center;
+}
+
+.tip-card .card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #0a0707;
+}
+
+.tip-card .card-text {
+    font-size: 1rem;
+    color: #111010;
+}
+
+
+/* Footer Styles */
+footer {
+    background: #222;
+    color: #0a0808;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for Contact Us Text */
+.contact-text {
+    font-family: 'Poppins', sans-serif; /* Modern & stylish font */
+    font-size: 1.5rem; /* Slightly larger font */
+    font-weight: bold;
+    color: #f1c40f; /* Yellow shade */
+    text-shadow: 2px 2px 5px rgba(241, 196, 15, 0.5); /* Soft glow effect */
+    text-align: center;
+    margin-top: 15px;
+}
+/* Styling for Contact Details */
+.contact-details {
+    font-family: 'Poppins', sans-serif; /* Modern & stylish font */
+    font-size: 1.2rem; /* Slightly larger font */
+    font-weight: bold;
+    color: #ffffff; /* White color */
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Social Media Icons */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    font-size: 2rem; /* Icon size */
+    color: white; /* Icon color */
+    background: black; /* Black background */
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+/* Hover Effects */
+.social-icon:hover {
+    background: #f1c40f; /* Gold on hover */
+    color: black;
+}
+
+
+

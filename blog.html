@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Blog</title>
+    <link rel="stylesheet" href="/2- assignments/blog.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Fashion BombDaily</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Trends">Trends</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Style Tips">Style Tips</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Main Content Section -->
+            <div class="col-lg-8">
+                <div class="row">
+                    <!-- Blog Posts using Bootstrap Cards -->
+                    <div class="col-md-6">
+                        <div class="card post1 mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">The Summer Chic Look</h5>
+                                <p class="date">Published on March 10, 2025</p>
+                                <p class="card-text">Summer fashion is all about embracing bright colors, flowy fabrics, and comfort...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card post2 mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Timeless Elegance: The Little Black Dress</h5>
+                                <p class="date">Published on February 20, 2025</p>
+                                <p class="card-text">The little black dress is a staple in every wardrobe. Learn how to accessorize it...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card post3 mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Streetwear: The Rise of Casual Fashion</h5>
+                                <p class="date">Published on January 15, 2025</p>
+                                <p class="card-text">Streetwear is more than just a trend; it's a movement. Explore how urban aesthetics...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar Section (Right Side) -->
+            <aside class="col-lg-4">
+                <div class="sidebar p-4">
+                    <h3>Recent Posts</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">The Summer Chic Look</a></li>
+                        <li><a href="#">Timeless Elegance: The Little Black Dress</a></li>
+                        <li><a href="#">Streetwear: The Rise of Casual Fashion</a></li>
+                    </ul>
+
+                    <!-- Bootstrap Styled Search Bar -->
+                    <h3 class="mt-4">Search</h3>
+                    <form class="input-group">
+                        <input type="text" class="form-control" placeholder="Search...">
+                        <button class="btn btn-dark" type="submit">Go</button>
+                    </form>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+                <!-- Trending Fashion Section -->
+                <section id="Trends" class="container mt-5">
+                    <div class="trending-box text-center">
+                        <h2 class="mb-4">Trending Fashion</h2>
+                    </div>
+        <div class="row">
+            <!-- Trend 1 -->
+            <div class="col-md-4">
+                <div class="card trend-card">
+                    <img src="/images/Oversized Blazers.webp" class="card-img-top" alt="Trend 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Oversized Blazers</h5>
+                        <p class="card-text">A must-have for a modern, chic look. Pair with fitted trousers or a mini skirt.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Trend 2 -->
+            <div class="col-md-4">
+                <div class="card trend-card">
+                    <img src="/images/Chunky Boots.webp" class="card-img-top" alt="Trend 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Chunky Boots</h5>
+                        <p class="card-text">Edgy, stylish, and perfect for all seasons. Rock them with casual or formal outfits.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Trend 3 -->
+            <div class="col-md-4">
+                <div class="card trend-card">
+                    <img src="/images/Monochrome Outfits.webp" class="card-img-top" alt="Trend 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Monochrome Outfits</h5>
+                        <p class="card-text">Sleek and elegant. Wearing a single color head-to-toe is a statement in itself.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Styling Fashion Tips Section -->
+        <section id="Style Tips" class="container mt-5">
+            <h2 class="text-center mb-4">Styling Fashion Tips</h2>
+            <div class="row">
+                <!-- Tip 1 -->
+                <div class="col-md-4">
+                    <div class="card tip-card">
+                        <img src="/images/Mix Textures.webp" class="card-img-top" alt="Tip 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Mix Textures</h5>
+                            <p class="card-text">Pair leather with silk or denim with lace for a balanced, stylish look.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tip 2 -->
+                <div class="col-md-4">
+                    <div class="card tip-card">
+                        <img src="/images/Belt It Up.webp" class="card-img-top" alt="Tip 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Belt It Up</h5>
+                            <p class="card-text">Use belts to add definition to oversized outfits and create a structured silhouette.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tip 3 -->
+                <div class="col-md-4">
+                    <div class="card tip-card">
+                        <img src="/images/Neutral & Bold.webp" class="card-img-top" alt="Tip 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Neutral & Bold</h5>
+                            <p class="card-text">Combine neutral colors with one bold piece for a chic, effortless ensemble.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    <!-- Footer Section -->
+    <footer class="text-center text-white bg-dark py-3 mt-5">
+        <p class="contact-text">Contact us: </p>
+        <p class="contact-details">fashionblog@example.com | +91 8861289964</p>
+
+        <!-- Social Media Links -->
+<div id="Contact" class="social-links text-center">
+    <span class="social-icon"><i class="fab fa-facebook-f"></i></span>
+    <span class="social-icon"><i class="fab fa-twitter"></i></span>
+    <span class="social-icon"><i class="fab fa-instagram"></i></span>
+    <span class="social-icon"><i class="fab fa-pinterest"></i></span>
+    <span class="social-icon"><i class="fab fa-linkedin-in"></i></span>
+</div>
+    </footer>
+
+</body>
+</html>

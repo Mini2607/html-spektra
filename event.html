@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/2- assignments/event.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Bebas+Neue&family=Cinzel:wght@700&family=Playfair+Display:wght@700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <!-- Header Section with Background Color -->
+    <header class="bg-primary text-white text-center py-4">
+        <div class="container">
+            <h1 class="display-4 fw-bold" style="font-family: 'Lobster', cursive; color: #ffcc00; text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);">
+                Vibes & Vibes: The Ultimate Entertainment Bash
+              </h1>
+              
+        </div>
+    </header>
+
+   <!-- Navigation Menu -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse d-flex justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Schedule">Schedule</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Register">Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+   <!-- About Our Event Section -->
+<section id = "About" class="about-event py-5">
+    <div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h2 class="fw-bold text-uppercase mb-4">About Our Event</h2>
+                <p class="about-text">
+                    Welcome to <strong>Vibes & Vibes</strong>, Get ready for an electrifying night of music, dance, comedy, and non-stop entertainment at Vibes & Vibes: The Ultimate Entertainment Bash! This event is a spectacular fusion of live performances, immersive experiences, and vibrant energy, bringing together music lovers, comedy enthusiasts, and partygoers for an unforgettable celebration.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Event Details Section -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-8 mx-auto text-center">
+                <h2 class="fw-bold text-dark event-details-heading">Event Details</h2>
+
+                <p class="lead text-white fst-italic">
+                    Join us at Vibes & Vibes and experience the ultimate entertainment bash like never before! Let’s vibe, party, and create unforgettable memories together!
+                  </p>
+                  
+                <div class="card p-4 bg-light shadow">
+                    <p class="fs-4 text-primary"><strong>Date:</strong> April 20, 2025</p>
+                    <p class="fs-5 text-success"><strong>Time:</strong> 10:00 AM - 4:00 PM</p>
+                    <p class="fs-5 text-danger"><strong>Location:</strong> Grand Convention Center, India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id = "Schedule" class="schedule-section py-5">
+        <div class="container">
+            <h2 class="fw-bold text-center text-orange mb-4">Event Schedule</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped bg-white shadow">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">Time</th>
+                            <th scope="col">Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-primary fw-bold">10:00 AM - 10:30 AM</td>
+                            <td>Live Music & DJs </td>
+                        </tr>
+                        <tr>
+                            <td class="text-success fw-bold">10:30 AM - 11:30 AM</td>
+                            <td>Stand-Up Comedy</td>
+                        </tr>
+                        <tr>
+                            <td class="text-danger fw-bold">11:30 AM - 12:30 PM</td>
+                            <td>Dance & Performances</td>
+                        </tr>
+                        <tr>
+                            <td class="text-warning fw-bold">12:30 PM - 1:30 PM</td>
+                            <td>Lunch Break</td>
+                        </tr>
+                        <tr>
+                            <td class="text-info fw-bold">1:30 PM - 3:00 PM</td>
+                            <td>Interactive Entertainment</td>
+                        </tr>
+                        <tr>
+                            <td class="text-secondary fw-bold">3:00 PM - 4:00 PM</td>
+                            <td>Celebrity Guests & Special Acts</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+<section id = "Register" class="registration-section py-5">
+    <div class="container">
+        <h2 class="text-center fw-bold text-dark mb-4">Register for the Event</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card p-4 bg-light shadow">
+                    <form>
+                        <!-- Full Name -->
+                        <div class="mb-3">
+                            <label for="name" class="form-label fw-bold">Full Name</label>
+                            <input type="text" class="form-control rounded-pill border-2 border-primary" id="name" placeholder="Enter your full name" required>
+                        </div>
+                        <!-- Email Address -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold">Email Address</label>
+                            <input type="email" class="form-control rounded-pill border-2 border-primary" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <!-- Phone Number -->
+                        <div class="mb-3">
+                            <label for="phone" class="form-label fw-bold">Phone Number</label>
+                            <input type="tel" class="form-control rounded-pill border-2 border-primary" id="phone" placeholder="Enter your phone number" required>
+                        </div>
+                        <!-- Message -->
+                        <div class="mb-3">
+                            <label for="message" class="form-label fw-bold">Message (Optional)</label>
+                            <textarea class="form-control rounded-3 border-2 border-primary" id="message" rows="4" placeholder="Any special requests?"></textarea>
+                        </div>
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary w-100 fw-bold py-2 rounded-pill">Register Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <div class="row">
+            <!-- Contact Information -->
+            <div id = "Contact" class="col-md-6 mb-3">
+                <h5 class="fw-bold">Contact Us</h5>
+                <p class="mb-1"><i class="bi bi-envelope-fill"></i> Email: eventinfo@example.com</p>
+                <p><i class="bi bi-telephone-fill"></i> Phone: +91 8861289964</p>
+            </div>
+            <!-- Social Media Icons (No Redirection) -->
+            <div class="col-md-6">
+                <h5 class="fw-bold">Follow Us</h5>
+                <span class="social-icon"><i class="bi bi-facebook"></i></span>
+                <span class="social-icon"><i class="bi bi-twitter"></i></span>
+                <span class="social-icon"><i class="bi bi-instagram"></i></span>
+                <span class="social-icon"><i class="bi bi-linkedin"></i></span>
+                <span class="social-icon"><i class="bi bi-youtube"></i></span>
+            </div>
+        </div>
+        <hr class="bg-light">
+        <p class="mt-3">© 2025 Vibes & Vibes. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
